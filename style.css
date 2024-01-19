@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Salsa&display=swap');
+
+html{
+  max-height: 300%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+body{
+  flex-direction: column;
+  display: flex;
+  background: fixed linear-gradient(#cadcfd,#80a4df);
+  font-family: 'Comfortaa', sans-serif;
+  color: #051e4c;
+  min-height: 310vh;
+  box-sizing: border-box;
+  position: absolute;
+}
+/** Header Section! **/
+
+header{
+
+  margin-top: 5;
+  padding-top: 3%;
+  font-family: 'Salsa', cursive;  
+  text-align: center;
+  background: linear-gradient(to right, #95b6e9, #a1a6d3);
+  justify-content: center;
+  border-radius: 10px;
+  height: 30vh;
+}
+
+.container {
+  display: fixed flex;
+  justify-content: center;
+  align-items: center;
+  height: 195vh;
+  margin: 5px;
+}
+
+/** H1 Glowing Font **/
+h1{
+  
+  font-size: 40px;
+  background: linear-gradient(#6449ae, #284182, #19359a,#1f3da9);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 10px #3892eb;
+
+  
+}
+
+/** Sub-Headings will have a drop shadow **/
+h2, h3 {
+  text-align: center;
+  color: #6885d4;
+  text-shadow: 2px 1px 0px #111f2d;
+}
+
+p{
+  font-weight: 400;
+  text-shadow: 1px 1px 0px #6a95bf;
+}
+
+h1 .two{
+  color: #eb8245;
+  text-shadow: 2px 2px 10px #fff6f1;
+}
+
+h1 .water {
+  color: rgb(77, 140, 230);
+  text-shadow: 2px 2px 10px #e7f4fc;
+  
+}
+
+
+
+h1 .two{
+  color: #eb8245;
+}
+
+.water{
+  color: #5d95ff;
+}
+
+
+/** Image Flex Box **/
+.image-container {/**The Images and Background border will have a drop shadow**/
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 10vh;
+  background-color: #999ed1;
+  height: 70vh;
+  box-shadow: 5px 0px 15px #e7f4fc;
+  border-radius: 30px;
+}
+img{
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.image-container img{
+  flex: 1;
+  width: 40vh;
+
+}
+
+/** Image HyperLinks**/
+
+.mermaids{
+  margin-right: 5rem;
+  margin-left: 10rem;
+}
+.mermaids img {
+  
+  justify-content: center;
+  margin-bottom: fixed 5vh;
+  height: 45vh;
+  width: 60vh;
+  border:rgb(172, 180, 255);
+  padding: 6px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+a:hover {
+  
+  text-decoration:none;
+  transition: transform 0.3s ease;
+
+}
+
+a, img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin: 25px;
+}
+
+/** Text Drop Shadows **/
+
+
+
+
+.info {
+  width: 110vh;
+  margin-top: 5vh;
+  margin-left: 25vh;
+  column-gap: 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.info p{
+  margin-left: 15vh;
+}
+
+.why{
+  margin-top: 10vh;
+}
+.why p{
+  margin-top: 5px;
+}
+
+.h2o p{
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40vh;
+}
+
+.h2o h2{
+  margin-top: 10vh;
+}
+
+
+/**Name Lists**/
+
+h3{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 15px;
+
+
+}
+
+.names {
+  margin: 3vh;
+}
+
+/** besties section **/
+
+.section {
+  content: "";
+  display: table;
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+  background: #4a6dac;
+  margin-bottom: 10vh;
+  margin-left: 10rem;
+  border-radius: 10px;
+  width: 130vh;
+  height: 70vh;
+}
+.characters{
+  width: 23rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin: 5px;
+  color: #3236b6;
+  text-shadow: 1px 1px 0px #2e236b;
+  justify-content: center;
+  align-items: center;
+  background-color: #999ed1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+
+ul{
+  font-size: smaller;
+  content: "";
+  clear: both;
+  display: table;
+}
+.characters h3{
+  color: #754ff5;
+  text-shadow: 1px 1px 0px #1f248b;
+}
+
+
+li{
+
+  font-size:14px;
+  
+}
+
+
+.besties{
+  margin-left: 10px;
+  border-radius: 50px;
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.besties img{
+  width: 70vh;
+  height: 55vh;
+}
+
+.box{
+  flex: 1;
+  margin: 5px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/**Main Character Names Decorated**/
+.Rikki, .Cleo, .Emma, .Bella, .Lewis {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.Rikki {
+  color: #a91919;
+  text-shadow: 1px 1px 0px #701717;
+}
+
+.Cleo {
+  color: #9340c0;
+  text-shadow: 1px 1px 0px #4b2573;
+}
+
+.Emma {
+  color: #1d6bbf;
+  text-shadow: 1px 1px 0px #1a3972;
+}
+
+.Bella {
+  color: #bb266e;
+  text-shadow: 1px 1px 0px #691d70;
+}
+
+.Lewis {
+  color: #128d1a;
+  text-shadow: 1px 1px 0px #12512b;
+}
+/** Music Audio Toggle Settings**/
+audio {
+  margin-bottom: 10px;
+}
+#playPauseSwitch {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 24px;
+}
+
+#playPauseSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#toggleSlider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5445c4;
+  border-radius: 44px;
+  transition: .4s;
+}
+
+#toggleSlider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(172, 180, 255);
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + #toggleSlider {
+  background-color: #2477bb;
+}
+
+input:checked + #toggleSlider:before {
+  transform: translateX(26px);
+}
+
+
+/** Footer Element**/
+footer {
+  position: fixed;
+  margin-right: 50rem;
+  bottom: 0;
+  right: 3rem;
+  left: -4%;
+  width: 90rem;
+  height: 100px;
+  margin-bottom: 0;
+  margin-top: 50px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.element{
+  display: inline-block;
+}
+
+.footer-element img{
+  flex: 1;
+  width: 13vh;
+  height: 13vh;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 8px;
+  margin-right: 30vh;
+}
+
+.footer-element{
+  background-color: #a5aad7;
+  height: 30vh;
+  width: 230vh;
+  box-shadow: 5px 0px 10px #064165;
+  border-radius: 30px;
+}
+
+
